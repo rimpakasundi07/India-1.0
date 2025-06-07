@@ -12,6 +12,9 @@
     rel="stylesheet">
   <!-- tailwind link -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<!-- fontawesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
   <style>
     body {
       font-family: "Fira Sans", sans-serif;
@@ -20,14 +23,14 @@
   </style>
 </head>
 
-<body class="bg-green-50">
+<body class="bg-blue-50">
   <!-- navbar start here -->
   <div class="flex justify-between items-center w-11/12 mx-auto py-7 ">
     <div>
       <h2 class="text-2xl font-bold">INDIA 1.0</h2>
     </div>
     <div>
-      <button class="border 2 rounded 12 p-2 7 border-blue-900 text-blue-900 font-bold">Sign in</button>
+      <button class="border 2 rounded 12 p-2 7 border-blue-900 text-blue-900 font-bold cursor-pointer">Sign in</button>
     </div>
 
 
@@ -38,7 +41,7 @@
       <h4 class="font-bold text-gray-500 ml-15">INDIA 1.0</h4>
       <h1 class="font-extrabold text-black text-4xl p-15">Idea , innovation , <br>vision and challenges in <br>New
         India.</h1>
-      <button class="border 2 rounded 12 p-2 7 bg-blue-900 text-white font-bold ml-15">Explore new India</button>
+      <button class="border 2 rounded 12 p-2 7 bg-blue-900 text-white font-bold ml-15 cursor-pointer">Explore new India</button>
 
     </div>
 
@@ -109,26 +112,26 @@
 
       <div class="border 2 rounded-xl shadow-xl p-6 space-y-4 bg-blue-200">
         <img src="assets/card-icon.png" alt="card">
-        <h4>Digital Transformation</h4>
+        <h4 class="text-2xl font-bold">Digital Transformation</h4>
         <p>Creating a nationwide digital ecosystem to enhance connectivity and access to services for all citizens.</p>
-        <button class="border 2 rounded 12 p-2 7 bg-blue-500 text-white font-bold ml-15">Learn More</button>
+        <button class="border 2 rounded 12 p-2  bg-blue-500 text-white font-bold ml-15 cursor-pointer">Learn More</button>
 
       </div>
       <!-- second card -->
       <div class="border 2 rounded-xl shadow-xl p-6 space-y-4 bg-green-200">
         <img src="assets/card-icon.png" alt="card">
-        <h4>Green Energy</h4>
+        <h4  class="text-2xl font-bold">Green Energy</h4>
         <p>Investments in solar and wind energy to ensure a sustainable and eco-friendly future.</p>
-        <button class="border 2 rounded 12 p-2 7 bg-green-500 text-white font-bold ml-15">Learn More</button>
+        <button class="border 2 rounded 12 p-2  bg-green-500 text-white font-bold ml-15 cursor-pointer">Learn More</button>
 
       </div>
 
       <!-- third card -->
       <div class="border 2 rounded-xl shadow-xl p-6 space-y-4 bg-yellow-200">
         <img src="assets/card-icon.png" alt="card">
-        <h4>Modern Infrastructure</h4>
+        <h4 class="text-2xl font-bold">Modern Infrastructure</h4>
         <p>Building state-of-the-art infrastructure to support economic growth and global competitiveness.</p>
-        <button class="border 2 rounded 12 p-2 7 bg-yellow-500 text-white font-bold ml-15">Learn More</button>
+        <button class="border 2 rounded 12 p-2  bg-yellow-500 text-white font-bold ml-15 cursor-pointer">Learn More</button>
 
       </div>
 
@@ -156,7 +159,7 @@
 
   <!-- quetions  start here -->
   <!-- <div> 
-          <table border="1">
+          <table border="1" >
             <tr>
               <th>Quetions</th>
               <th>Select your opinion</th>
@@ -194,7 +197,7 @@
       <p class="text-sm">Not until the creation and maintenance of decent conditions of life for all people are
         recognized and accepted as a common obligation of all people and all countries—not until then shall we,with a
         certain degree of justification, be able to speak of humankind as civilized</p>
-      <button class="bg-green-800 rounded-lg text-white px-5 py-3">Read more</button>
+      <button class="bg-green-800 rounded-lg text-white px-5 py-3 cursor-pointer">Read more</button>
 
 
 
@@ -218,7 +221,7 @@
       <p class="text-sm">Not until the creation and maintenance of decent conditions of life for all people are
         recognized and accepted as a common obligation of all people and all countries—not until then shall we,with a
         certain degree of justification, be able to speak of humankind as civilized</p>
-      <button class="bg-green-800 rounded-lg text-white px-5 py-3">Read more</button>
+      <button class="bg-green-800 rounded-lg text-white px-5 py-3 cursor-pointer">Read more</button>
 
 
 
@@ -242,7 +245,7 @@
       <p class="text-sm">Not until the creation and maintenance of decent conditions of life for all people are
         recognized and accepted as a common obligation of all people and all countries—not until then shall we,with a
         certain degree of justification, be able to speak of humankind as civilized</p>
-      <button class="bg-green-800 rounded-lg text-white px-5 py-3">Read more</button>
+      <button class="bg-green-800 rounded-lg text-white px-5 py-3 cursor-pointer">Read more</button>
     </div>
   </div>
 
@@ -265,9 +268,9 @@
    </div>
    <div class="w-[65%] mx-auto mt-10">
     <form>
-      <input type="number" class="w-full p-5 bg-white shadow-sm rounded-lg " placeholder="other amount">
+      <input type="number" class="w-full p-5 bg-white shadow-sm rounded-lg " required placeholder="other amount">
       <div class="flex justify-center items-center">
-        <button class="bg-green-800 rounded-lg text-white px-5 mt-5 py-3">Donate Now</button>
+        <button class="bg-green-800 rounded-lg text-white px-5 mt-5 py-3 cursor-pointer">Donate Now</button>
 
       </div>
       
@@ -278,6 +281,44 @@
 
    
   <!-- Donate Today end here -->
+
+  <!-- Subscribe Newsletter start here -->
+   <div class="w-11/12 mx-auto bg-blue-300 rounded-lg">
+    <div class="text-center space-y-4">
+      <h1 class="font-extrabold text-3xl pt-5 ">Subscribe Newsletter</h1>
+    <p>India 1.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth.</p>
+
+    </div>
+
+    <div class="w-[45%] mx-auto mt-10">
+    <form>
+      <input type="email" required class="w-full p-5 bg-white shadow-sm rounded-lg " placeholder="enter email">
+      <div class="flex justify-center items-center">
+        <button class="bg-green-800 rounded-lg text-white px-5 mt-5 py-3 cursor-pointer">Subscribe</button> <br>
+        
+
+      </div>
+      
+    </form>
+    <p class="text-center p-5 ">We promise not to spam you!</p>
+    </div>
+   </div>
+  <!-- Subscribe Newsletter end here -->
+
+  <!-- footer  start-->
+   <div class=" text-center mt-15">
+    <h2 class="font-extrabold text-3xl py-5  ">India 1.0</h2> 
+    <hr class="w-[70%] mx-auto ">
+  
+           <div class="flex gap-3 text-white mt-2 mx-aut0 justify-center py-5">
+              <a target="blank" href="https://www.facebook.com/"> <i class="fa-brands fa-facebook text-black"></i></a>
+              <a target="blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram  text-black"></i></a> 
+              <a target="blank" href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin  text-black"></i></a>
+              <a target="blank" href="https://www.youtube.com/"> <i class="fa-brands fa-youtube  text-black"></i></a>
+          </div>
+          
+   </div>
+  <!-- footer  end-->
 
 
 
